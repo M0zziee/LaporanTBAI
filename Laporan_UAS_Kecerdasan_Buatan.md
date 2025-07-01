@@ -48,12 +48,12 @@ Dataset diperoleh dari ulasan mahasiswa Telkom University (file: `TelU_reviews.c
 ## 3. Exploratory Data Analysis (EDA)
 
 ### Visualisasi Distribusi Rating
-![Distribusi Rating](Screenshot%202025-07-01%20181529.png)
+![Screenshot 2025-07-01 181529](https://github.com/user-attachments/assets/474a1cb5-5825-469f-b2b4-854c095c7916)
 
 Sebagian besar ulasan memiliki rating **5**, menunjukkan dominasi sentimen positif yang signifikan.
 
 ### Korelasi antar Fitur
-![Heatmap Korelasi](Screenshot%202025-07-01%20181535.png)
+![Screenshot 2025-07-01 181535](https://github.com/user-attachments/assets/7021dfea-0f86-4270-b943-de1bf604c421)
 
 Tingkat korelasi antara fitur numerik (`page` dan `rating`) sangat rendah (0.24), menunjukkan independensi antar fitur.
 
@@ -90,8 +90,9 @@ Model dilatih menggunakan TF-IDF dari review sebagai fitur masukan dan rating se
 ## 6. Evaluation
 
 ### Confusion Matrix
-![Confusion Matrix](Screenshot%202025-07-01%20181546.png)  
-![Naive Bayes Confusion Matrix](Screenshot%202025-07-01%20181552.png)
+![Screenshot 2025-07-01 181546](https://github.com/user-attachments/assets/6d16062f-8219-4221-bdd4-c73bdf585e05)
+![Screenshot 2025-07-01 181552](https://github.com/user-attachments/assets/67b7ec48-e08b-4c82-9b6f-fbdf06e9f4b1)
+
 
 ### Metrik Evaluasi
 - **Akurasi**: 86.53%
